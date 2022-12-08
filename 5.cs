@@ -1,8 +1,7 @@
 ﻿int age;
-
+Console.WriteLine("Yasinizi daxil edin");
 do
 {   
-    Console.WriteLine("Yasinizi daxil edin");
     age = Convert.ToInt32(Console.ReadLine());
     if (age<1||age>100)
     {
